@@ -50,17 +50,21 @@
       width: 320px;
       padding: 15px;
       background: #fff;
-      border-radius: 4px;
+      border-radius: 10px;
     }
 
     .qr-code img {
       width: 100%;
+      border-radius: 10px;
+    }
+
+    .qr-code-info {
+      padding: 0 15px;
     }
 
     .qr-code h1 {
       font-size: 22px;
       text-align: center;
-      padding: 0 15px;
       margin: 15px 0;
       color: hsl(218, 44%, 22%);
     }
@@ -68,7 +72,6 @@
     .qr-code p {
       color: hsl(220, 15%, 55%);
       text-align: center;
-      padding: 0 15px;
     }
   </style>
 </head>
@@ -78,8 +81,10 @@
   <div class="wrapper">
     <div class="qr-code">
       <img src="./images/image-qr-code.png" alt="">
-      <h1>Improve your front-end skills by building projects</h1>
-      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to next level</p>
+      <div class="qr-code-info">
+        <h1>Improve your front-end skills by building projects</h1>
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to next level</p>
+      </div>
     </div>
   </div>
 
